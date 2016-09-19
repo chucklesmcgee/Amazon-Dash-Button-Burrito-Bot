@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      "chipsandguac",
+      "/home/pi/bin"
+    ]
+  ],
+  "_from": "chipsandguac@*",
+  "_id": "chipsandguac@1.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/chipsandguac",
+  "_nodeVersion": "0.10.32",
+  "_npmUser": {
+    "email": "jquatier@gmail.com",
+    "name": "jquatier"
+  },
+  "_npmVersion": "2.1.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "chipsandguac",
+    "raw": "chipsandguac",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/chipsandguac/-/chipsandguac-1.1.0.tgz",
+  "_shasum": "75c14b2abff4f1d7d0b17d4d14b99822b6114982",
+  "_shrinkwrap": null,
+  "_spec": "chipsandguac",
+  "_where": "/home/pi/bin",
+  "author": {
+    "name": "JQ"
+  },
+  "bugs": {
+    "url": "https://github.com/jquatier/chipsandguac/issues"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.25",
+    "cheerio": "^0.19.0",
+    "request": "^2.55.0"
+  },
+  "description": "Node.js API for programmatically ordering from the Chipotle website.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "75c14b2abff4f1d7d0b17d4d14b99822b6114982",
+    "tarball": "http://registry.npmjs.org/chipsandguac/-/chipsandguac-1.1.0.tgz"
+  },
+  "gitHead": "8efc38274fd0759f6b0ad706f2906cabea0a0ff7",
+  "homepage": "https://github.com/jquatier/chipsandguac",
+  "license": "MIT",
+  "main": "chipsandguac.js",
+  "maintainers": [
+    {
+      "name": "jquatier",
+      "email": "jquatier@gmail.com"
+    }
+  ],
+  "name": "chipsandguac",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jquatier/chipsandguac.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}

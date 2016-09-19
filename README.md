@@ -1,6 +1,14 @@
+# First off
+This is a program cobbled together using Aaron Bell's code and method to crack the Amazon Dash button and subvert it to non-Amazon purchases (bwahahaha).
+1. Follow instructions here: http://www.aaronbell.com/how-to-hack-amazons-wifi-button/ to get your hardware up and running. "dashifttt.py" incorporates his code.
+2. Follow readme taken from ChipsAndGuac below to get the chipotle end up and running. You'll need to use the test script to pull your Chipotle location number and order and stick that into the burrito order script.
+3. I used something to make python call java and run the script, which I think was the Naked Shell library.
+4. Script gives an error after a successful Chipotle order, but doesn't crash script or disupt monitoring.
+5. When everything's good to go, run dashifttt.py and click.
+
+
 # ChipsAndGuac
 
-![](img/chipsandguac.jpg)
 
 Node.js API for programmatically ordering from the Chipotle website. This module can be used for locating nearby Chipotle restaurants, looking up favorite and recent orders, checking available pickup times, and of course, placing orders. 
 
